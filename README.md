@@ -13,7 +13,6 @@ TODO: add docker compose file for running it seamlessly anywhere.
 go run cmd/web/main.go
 ```
 
-### Requirements
 
 ### Logging
 
@@ -29,21 +28,6 @@ return slog.GroupValue(attributes...)
 }
 
 ```
-
-#### Mandatory
-
-1. Create User, Restaurant and Rider.
-2. Search Restaurant based on location, name and food type.
-3. Assign delivery partners
-4. Track order
-5. Give rating
-6. Show delivery time
-
-#### Bonus
-
-1. Rating system
-2. Delivery time
-3. Coupouns
 
 ## Assumptions
 
